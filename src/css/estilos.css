@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header{
+    margin: 55px 60px 40px 65px;
+}
+
+
+.main{
+    display: flex;
+    margin: 55px 60px 0px 65px;
+}
+
+.main .informations{
+    margin: 40px 0px 0px 65px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.main .informations .title{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.main .informations .subtitle{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 510px;
+}
+
+.main .informations .btn{
+    padding: 10px 55px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.main .informations .btn:hover{
+    color: #FFFFFF;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 45px 70px 50px 0px;
+}
+
+.footer .social a{
+    margin: 8px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer .social a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
